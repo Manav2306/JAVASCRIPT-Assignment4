@@ -1,0 +1,52 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #007BFF;
+}
+
+#weather-data {
+    background-color: lightgreen; 
+    color: black; 
+    padding: 20px;
+    margin: 0 auto; 
+    max-width: 400px; 
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); 
+    transition: background-color 0.3s ease; 
+}
+
+#weather-data:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}
+
+#weather-image {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.error-message {
+    color: #dc3545;
+    font-weight: bold;
+    text-align: center;
+}
